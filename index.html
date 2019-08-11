@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Bamazon Store App by Alex Mojnov</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h2>MySQL and Node.js</h2>
+            <h3>Bamazon Store App by Alex Mojnov</h3>
+
+            <h3>Overview</h3>
+            <p>The Week 12 Homework, creating an Amazon-like storefront with the MySQL and NODE.js. The app takes in
+                orders from customers and deplete stock from the store's inventory. It is also tracks product sales
+                across your store's departments and then provide a summary of the highest-grossing departments in the
+                store.</p>
+
+
+            <h3>How it's done</h3>
+
+            <h4>Customer View</h4>
+
+            <ul>
+                <p>
+                    1. Created a MySQL Database called <b>`bamazon`</b>.<br>
+                    2. Then created a Table inside of that database called `products`.<br>
+                    3. The products table should have each of the following columns:<br>
+                </p>
+
+                <ul>
+                    <li>item_id (unique id for each product)</li>
+                    <li>product_name (Name of product)</li>
+                    <li>department_name</li>
+                    <li>price (cost to customer)</li>
+                    <li>stock_quantity (how much of the product is available in stores)</li>
+                </ul>
+                <br>
+                <p>
+                    4. Populated this database with 5 different products.<br>
+                    5. Created a Node application called `bamazon.js`. When App Runns it displays all of the items
+                    available
+                    for sale. Include the ids, names, and prices of products for sale.<br>
+                    6. The app prompt users with two messages.<br>
+                </p>
+                <ul>
+                    <li>he first should ask them the ID of the product they would like to buy.</li>
+                    <li>The second message should ask how many units of the product they would like to buy.</li>
+                </ul>
+                <br>
+<p>
+                7. Once the customer has placed the order, the application checks if the store has enough of the product
+                to meet the customer's request.
+            </p>
+                <ul>
+                    <li>If not, the app log a phrase `Insufficient quantity!`, and then prevent the order from going
+                        through
+                        requesting to try again.</li>
+                </ul>
+                <br>
+<p>
+                8. If the store _does_ have enough of the product, the app fulfills the customer's order.
+            </p>
+                <ul>
+                    <li>Updating the SQL database to reflect the remaining quantity.</li>
+                    <li>Once the update goes through, showing the customer the total cost of their purchase.</li>
+                </ul>
+            </ul>
+
+            </p>
+            <br>
+            <a href="video.html"><button class="btn btn-primary" type="button">WATCH THE VIDEO</button></a>
+        </div>
+
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

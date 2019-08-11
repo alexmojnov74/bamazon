@@ -1,0 +1,67 @@
+body {
+    background-image: url("../coding.jpg");
+    background-position: top;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.jumbotron {
+    margin-top: 50px;
+    border: 2px solid #063777;
+    background-color: #b9cff7;
+    border-radius: 20px 0px 20px 0px;
+    -webkit-border-radius: 20px 0px 20px 0px;
+    -moz-border-radius: 20px 0px 20px 0px;
+    -ms-border-radius: 20px 0px 20px 0px;
+    -o-border-radius: 20px 0px 20px 0px;
+    box-shadow: 15px 15px 25px black;
+}
+mark {
+    background-color: darkgrey;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn {
+    width: 600px;
+    height: 50px;
+   margin-left: 20%;
+   box-shadow: 5px 5px 10px black;
+
+}
+
+.btn:hover {
+    background-color: #b9cff7;
+    color: #063777;
+    font-size: 20px;
+    width: 600px;
+    height: 50px;
+    margin-left: 20%;
+    box-shadow: 5px 5px 10px black;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.jb {
+    text-align: center;
+}
+h2 {
+    font-family: 'Exo', sans-serif;
+}
+h3 {
+    font-family: 'Exo', sans-serif;
+}
+h4 {
+    font-family: 'Exo', sans-serif;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+li {
+    font-family: 'Abel', sans-serif;
+}
